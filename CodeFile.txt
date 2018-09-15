@@ -61,3 +61,10 @@ foreach (InstanceViewStatus stat in vm.InstanceView.Statuses)
 }
 Console.WriteLine("Press enter to continue...");
 Console.ReadLine();
+
+# Stop VM
+
+Console.WriteLine("Stopping vm...");
+vm.PowerOff();
+Console.WriteLine("Press enter to continue...");
+Console.ReadLine();
