@@ -68,3 +68,11 @@ Console.WriteLine("Stopping vm...");
 vm.PowerOff();
 Console.WriteLine("Press enter to continue...");
 Console.ReadLine();
+
+
+# Start VM
+
+Console.WriteLine("Starting vm...");
+vm.Start();
+Console.WriteLine("Press enter to continue...");
+Console.ReadLine();
